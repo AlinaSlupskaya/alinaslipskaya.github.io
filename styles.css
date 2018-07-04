@@ -1,8 +1,4 @@
 html {
-  box-sizing: border-box;
-}
-
-html, body {
   margin: 0;
   padding: 0;
 }
@@ -12,6 +8,7 @@ body {
   margin: 0 auto;
   background-color: rgb(10, 14, 52);
   font-size: 14px;
+  box-sizing: border-box;
   max-width: 1920px;
 }
 
@@ -31,15 +28,15 @@ body {
 }
 
 .logo {
-  width: 13%;
-  margin-top: 30px;
-  margin-left: 212px;
+  width: 14.5%;
+  margin-top: 3.45%;
+  margin-left: 43.5%;
 }
 
 p.be, p.play {
   color: #ffffff;
-  font: bold 575% "OpenSans-Bold";
-  width: 1125px;
+  font: bold 656% "OpenSans-Bold";
+  width: 58.6%;
   letter-spacing: 1.5px;
 }
 
@@ -60,8 +57,8 @@ p.be, p.play {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: flex-start;
-  margin: 70px 0px 75px 960px;
+  justify-content: center;
+  margin: 70px 0px 75px 60px;
 }
 
 ul.appStore, ul.googlePlay {
@@ -143,6 +140,7 @@ a {
 .athlets h2 {
   color: #c1c1c1;
   font: 300% "OpenSans-Bold";
+  text-transform: uppercase;
 }
 
 .athlets p {
