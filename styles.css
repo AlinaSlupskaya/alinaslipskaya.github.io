@@ -6,7 +6,7 @@ html {
 body {
   width: 100%;
   margin: 0 auto;
-  background-color: rgb(10, 14, 52);
+  /*background-color: rgb(10, 14, 52);*/
   font-size: 14px;
   box-sizing: border-box;
   max-width: 1920px;
@@ -23,25 +23,27 @@ body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  background: url(img/img_desktop/football.jpg) no-repeat top right, rgb(10, 14, 52);
+  /*  background: linear-gradient(url(img/img_desktop/football.jpg) 100% 100% rgb(10, 14, 52) 50%, transparent 50%);*/
+  background: rgb(10, 14, 52) url(img/img_desktop/football.jpg);
+  background-blend-mode: overlay, soft-light, multiply;
   background-size: cover;
 }
 
 .logo {
-  width: 14.5%;
-  margin-top: 3.45%;
-  margin-left: 43.5%;
+  width: 12%;
+  margin-top: 2.7%;
+  margin-left: 22.5%;
 }
 
 p.be, p.play {
   color: #ffffff;
-  font: bold 656% "OpenSans-Bold";
-  width: 58.6%;
-  letter-spacing: 1.5px;
+  font: bold 556% "OpenSans-Bold";
+  width: 1030px;
+  letter-spacing: 3.1px;
 }
 
 .be {
-  margin-top: 15%;
+  margin-top: 15.5%;
   text-align: left;
   margin-bottom: 0;
   height: 80px;
@@ -50,7 +52,7 @@ p.be, p.play {
 .play {
   margin-top: 0;
   text-align: right;
-  margin-left: 380px;
+  margin-left: 42.5%;
 }
 
 .buttonsHeader {
@@ -58,7 +60,7 @@ p.be, p.play {
   width: 100%;
   align-items: center;
   justify-content: center;
-  margin: 70px 0px 75px 60px;
+  margin: 5.4% 0 6% 21%;
 }
 
 ul.appStore, ul.googlePlay {
@@ -71,37 +73,36 @@ ul.appStore, ul.googlePlay {
   background: #5e42b0;
   border-radius: 45px;
   height: 65px;
-  padding: 0 30px 0 30px;
+  padding: 0 2% 0 2%;
   text-transform: uppercase;
 }
 
 ul.appStore {
-  margin-right: 50px;
+  margin-right: 4.2%;
 }
 
 .appStore svg {
   fill: #ffffff;
   width: 30%;
-  margin-bottom: 10px;
 }
 
 .googlePlay svg {
   fill: #ffffff;
   width: 20%;
-  padding-left: 12px;
+  padding-left: 6%;
 }
 
 .googlePlay li {
   display: flex;
   flex-direction: column;
-  padding-left: 7px;
+  padding-left: 3.5%;
 }
 
 li {
   list-style-type: none;
   color: #ffffff;
   font: 90% "OpenSans-Regular";
-  margin-left: 14px;
+  margin-left: 7%;
 }
 
 a {
@@ -124,27 +125,34 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.athlets_text h1 {
-  color: #e7e7e7;
-  font: 500% "OpenSans-Bold";
-}
-
-.athlets img {
-  width: 43.5%;
-  height: 40%;
-  margin-left: 220px;
+  width: 50%;
+  height: 815px;
 }
 
 .athlets h2 {
   color: #c1c1c1;
-  font: 300% "OpenSans-Bold";
+  font: 230% "OpenSans-Bold";
   text-transform: uppercase;
 }
 
 .athlets p {
   font: 143% "OpenSans-Regular";
+  color: #c1c1c1;
+}
+
+.athlets img {
+  width: 42.5%;
+  margin-left: 20%;
+}
+
+.athlets h1 {
+  color: #e7e7e7;
+  font: 490% "OpenSans-Bold";
+  height: 40%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 74px;
+  margin-left: 20px;
 }
 
 @font-face {
