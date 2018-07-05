@@ -30,20 +30,20 @@ body {
 }
 
 .logo {
-  width: 12%;
-  margin-top: 2.7%;
-  margin-left: 22.5%;
+  width: 10%;
+  margin-top: 2.4%;
+  margin-left: 3.6%;
 }
 
 p.be, p.play {
   color: #ffffff;
   font: bold 556% "OpenSans-Bold";
-  width: 1030px;
+  width: 80%;
   letter-spacing: 3.1px;
 }
 
 .be {
-  margin-top: 15.5%;
+  margin-top: 13%;
   text-align: left;
   margin-bottom: 0;
   height: 80px;
@@ -52,7 +52,7 @@ p.be, p.play {
 .play {
   margin-top: 0;
   text-align: right;
-  margin-left: 42.5%;
+  margin-left: 6%;
 }
 
 .buttonsHeader {
@@ -60,7 +60,7 @@ p.be, p.play {
   width: 100%;
   align-items: center;
   justify-content: center;
-  margin: 5.4% 0 6% 21%;
+  margin: 4.7% 0 5.1% 0;
 }
 
 ul.appStore, ul.googlePlay {
@@ -68,7 +68,7 @@ ul.appStore, ul.googlePlay {
   width: 100%;
   align-items: center;
   justify-content: flex-start;
-  flex-basis: 15%;
+  flex-basis: 12.5%;
   flex-shrink: 1.5;
   background: #5e42b0;
   border-radius: 45px;
@@ -78,7 +78,8 @@ ul.appStore, ul.googlePlay {
 }
 
 ul.appStore {
-  margin-right: 4.2%;
+  margin-right: 3%;
+  margin-left: 2.6%
 }
 
 .appStore svg {
@@ -125,7 +126,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 50%;
+  width: 60%;
   height: 815px;
 }
 
@@ -133,26 +134,225 @@ a {
   color: #c1c1c1;
   font: 230% "OpenSans-Bold";
   text-transform: uppercase;
+  margin-left: 1.3%;
 }
 
 .athlets p {
-  font: 143% "OpenSans-Regular";
+  font: 130% "OpenSans-Regular";
   color: #c1c1c1;
 }
 
 .athlets img {
-  width: 42.5%;
-  margin-left: 20%;
+  width: 35%;
+  padding-left: 18%;
+  padding-bottom: 1%;
 }
 
 .athlets h1 {
   color: #e7e7e7;
   font: 490% "OpenSans-Bold";
-  height: 40%;
+  height: 14%;
   text-align: left;
   text-transform: uppercase;
-  margin-top: 74px;
-  margin-left: 20px;
+  margin-top: 10%;
+  margin-left: 2.4%;
+  margin-bottom: 0;
+}
+
+.marker span {
+  position: relative;
+  padding-bottom: 1%;
+  font: bold 110.5% "OpenSans-Bold";
+}
+
+.marker span:before {
+  content: "";
+  position: absolute;
+  bottom: -6%;
+  width: 100%;
+  border-bottom: 5px solid #5e42b0;
+  border-radius: 5px;
+}
+
+.athlets_connection {
+  height: 19%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.athlets_subtitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2.4%;
+  height: 20%;
+}
+
+.athlets_connection p {
+  text-align: left;
+  padding-left: 2.4%;
+  letter-spacing: 0.3px;
+}
+
+
+/*athlets_collaboration*/
+
+.athlets_collaboration {
+  height: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.athlets_collaboration .athlets_subtitle {
+  margin-top: 7%;
+}
+
+.athlets_collaboration p {
+  text-align: left;
+  padding-left: 2.4%;
+  letter-spacing: 0.3px;
+  width: 81%;
+  height: 72%;
+}
+
+
+/*athlets_growth*/
+
+.athlets_growth {
+  height: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.athlets_growth .athlets_subtitle {
+  margin-top: 2.7%;
+}
+
+.athlets_growth p {
+  text-align: left;
+  padding-left: 2.4%;
+  width: 77%;
+  height: 30%;
+  margin-top: 0.9%;
+}
+
+
+/*PLAYER*/
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
+}
+
+.player_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  height: 815px;
+  padding-left: 260px;
+}
+
+.player img {
+  width: 50%;
+  height: 100%;
+}
+
+.player h1 {
+  color: #e7e7e7;
+  font: 490% "OpenSans-Bold";
+  height: 14%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 14%;
+  margin-left: -42%;
+  margin-bottom: 3.9%
+}
+
+.player h2 {
+  color: #c1c1c1;
+  font: 230% "OpenSans-Bold";
+  text-transform: uppercase;
+  margin-left: 2%;
+  letter-spacing: 0.3px;
+}
+
+.player_connection {
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 3.7%;
+}
+
+.player_subtitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2.4%;
+  height: 20%;
+}
+
+.player_connection p {
+  text-align: left;
+  padding-left: 2.4%;
+  letter-spacing: 0.3px;
+  font: 130% "OpenSans-Regular";
+  color: #c1c1c1;
+}
+
+
+/*player_collaboration*/
+
+.player_collaboration {
+  height: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player_collaboration .player_subtitle {
+  margin-top: 9%;
+}
+
+.player_collaboration p {
+  text-align: left;
+  padding-left: 2.4%;
+  height: 72%;
+  margin-top: 5%;
+  font: 130% "OpenSans-Regular";
+  color: #c1c1c1;
+}
+
+
+/*player_growth*/
+
+.player_growth {
+  height: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player_growth .player_subtitle {
+  margin-top: 5.5%;
+}
+
+.player_growth p {
+  text-align: left;
+  padding-left: 2.4%;
+  width: 100%;
+  margin-top: 1%;
+  height: 17%;
+  font: 130% "OpenSans-Regular";
+  color: #c1c1c1;
 }
 
 @font-face {
