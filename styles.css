@@ -244,7 +244,7 @@ a {
 
 .player {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row-reverse;
   width: 100%;
@@ -257,22 +257,24 @@ a {
   justify-content: flex-start;
   width: 50%;
   height: 815px;
-  padding-left: 260px;
+  padding-left: 268px;
 }
 
 .player img {
-  width: 50%;
-  height: 100%;
+  width: 53%;
+  height: 50%;
+  position: relative;
+  top: -25px;
+  margin-right: 3.4%;
 }
 
 .player h1 {
   color: #e7e7e7;
   font: 490% "OpenSans-Bold";
   height: 14%;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
-  margin-top: 14%;
-  margin-left: -42%;
+  margin-top: 17.2%;
   margin-bottom: 3.9%
 }
 
@@ -289,7 +291,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 3.7%;
+  margin-top: 6%;
 }
 
 .player_subtitle {
@@ -306,6 +308,7 @@ a {
   letter-spacing: 0.3px;
   font: 130% "OpenSans-Regular";
   color: #c1c1c1;
+  width: 100%;
 }
 
 
