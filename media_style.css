@@ -89,9 +89,34 @@
     margin-top: 18.5%;
     margin-left: 2%;
   }
-  .play {
+  p.play {
     text-align: left;
     margin-left: 30%;
-    line-height: 0.5;
+    line-height: 1.2;
+    margin-top: 0.7%;
+  }
+  /*buttonsHeader*/
+  .buttonsHeader {
+    margin: 29.5% 0 10% 0;
+  }
+  ul.appStore, ul.googlePlay {
+    flex-basis: 36.5%;
+    height: 75px;
+    margin-left: 0;
+  }
+  .googlePlay svg {
+    width: 16%;
+    padding-left: 15%;
+  }
+  .appStore svg {
+    padding-left: 7%;
+    width: 15%;
+  }
+  .appStore li, .googlePlay li {
+    padding-left: 2%;
+    letter-spacing: 1.2px;
+  }
+  a {
+    font-size: 100%;
   }
 }
