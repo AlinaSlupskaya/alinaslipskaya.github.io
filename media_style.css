@@ -1,0 +1,97 @@
+@media (min-width: 960px) and (max-width: 1440px) {
+  .be_activ_img, .work_it_img {
+    background-size: cover;
+  }
+  body {
+    font-size: 11px;
+  }
+  /*athlets*/
+  .athlets {
+    height: 760px;
+  }
+  .athlets_text {
+    justify-content: flex-start;
+  }
+  .athlets_img img {
+    padding-left: 7%;
+    width: 69%
+  }
+  /*player*/
+  .player {
+    height: 760px;
+  }
+  .player_text {
+    justify-content: flex-start;
+  }
+  .player_img img {
+    margin-left: 28%;
+    width: 72%;
+    margin-top: -1%;
+  }
+  .player_connection {
+    height: 18%;
+    padding-left: 10%;
+  }
+  .player_collaboration {
+    height: 25%;
+    padding-left: 10%;
+  }
+  .player_growth {
+    height: 29%;
+    padding-left: 10%;
+  }
+  .player h1 {
+    padding-left: 10%;
+  }
+  /*marker_cube*/
+  .marker_cube {
+    height: 15%;
+  }
+  /*be_activ*/
+  .be_activ p {
+    width: 60%;
+  }
+  .be_activ, .find_contact, .work_it {
+    height: 500px;
+  }
+  /*find_contact*/
+  .find_contact_text h1 {
+    padding-left: 10%;
+  }
+  .find_contact_text p {
+    width: 55%;
+  }
+  /*work_it*/
+  .work_it_text p {
+    width: 80%;
+  }
+  /*footer*/
+  .footer_text-logo svg {
+    margin: 15.5% 0 0 1%;
+  }
+  /*buttonsHeader*/
+  ul.appStore, ul.googlePlay {
+    flex-basis: 19.5%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  /*header*/
+  header .logo {
+    width: 27%;
+    margin-top: 5%;
+  }
+  p.be, p.play {
+    font: bold 450% "OpenSans-Bold";
+    letter-spacing: 4px;
+  }
+  .be {
+    margin-top: 18.5%;
+    margin-left: 2%;
+  }
+  .play {
+    text-align: left;
+    margin-left: 30%;
+    line-height: 0.5;
+  }
+}
